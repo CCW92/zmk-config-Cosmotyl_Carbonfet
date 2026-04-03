@@ -1,0 +1,5 @@
+config SHIELD_COSMOTYL_5X6_CARBONFET_LEFT
+    def_bool $(shields_list_contains,cosmotyl_5x6_carbonfet_left)
+
+config SHIELD_COSMOTYL_5X6_CARBONFET_RIGHT
+    def_bool $(shields_list_contains,cosmotyl_5x6_carbonfet_right)
