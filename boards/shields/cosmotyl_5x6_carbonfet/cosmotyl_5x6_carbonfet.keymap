@@ -15,16 +15,17 @@
                 default_layer {
                         display-name = "Default Layer";
                         bindings = <
-                &kp ESC   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                       &kp N6   &kp N7   &kp N8   &kp N9   &kp N0    &kp MINUS 
-                &kp TAB   &kp Q    &kp W    &kp E    &kp R    &kp T                            &kp Y    &kp U    &kp I    &kp O    &kp P     &kp EQUAL 
-                &kp LSHFT  &kp A    &kp S    &kp D    &kp F    &kp G                           &kp H    &kp J    &kp K    &kp L    &kp SEMI  &kp APOS 
-                &kp LCTRL  &kp Z    &kp X    &kp C    &kp V    &kp B                           &kp N    &kp M    &kp COMMA &kp DOT  &kp FSLH &kp RSHFT 
-                                &kp LGUI &kp LALT                                                        &kp BSPC  &kp PSCRN 
-                                                &none           &none                    	&kp ENT   &kp SPACE 
-                                                &kp K_VOL_UP 	&kp K_VOL_DN                   	&kp K_MUTE  &kp ENTER 
-                                                &kp C_PP 	&none                          &kp HOME  &kp END
-                        >;
-                };
+                                &kp ESC    &kp N1  &kp N2  &kp N3  &kp N4     &kp N5                                             &kp N6     &kp N7         &kp N8        &kp N9     &kp N0     &kp DEL
+                                &kp TAB    &kp Q   &kp W   &kp E   &kp R      &kp T                                              &kp Y      &kp U          &kp I         &kp O      &kp P      &kp MINUS
+                                &kp LSHFT  &kp A   &kp S   &kp D   &kp F      &kp G                                              &kp H      &kp J          &kp K         &kp L      &kp SEMI   &kp SQT
+                                &kp LCTRL  &kp Z   &kp X   &kp C   &kp V      &kp B                                              &kp N      &kp M          &kp COMMA     &kp DOT    &kp SLASH  &kp RSHFT
+                                                   &kp LWIN     &LALT                                                                                            &kp BACKSPACE &kp BACKSPACE
+                                                                &kp SPACE  &kp LEFT_SHIFT                                     &kp RET    &kp BACKSPACE
+                                                                           &kp LEFT_ALT    &kp C_AL_CALCULATOR  &kp UP_ARROW  &kp DOWN
+                                                                           &kp LEFT_GUI    &lt 1 F2             &kp LEFT      &kp RIGHT
+                                        >;
+                                };
+				
 
-        };
+                };
 };
