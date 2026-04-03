@@ -20,9 +20,9 @@
                 &kp LSHFT  &kp A    &kp S    &kp D    &kp F    &kp G                           &kp H    &kp J    &kp K    &kp L    &kp SEMI  &kp APOS 
                 &kp LCTRL  &kp Z    &kp X    &kp C    &kp V    &kp B                           &kp N    &kp M    &kp COMMA &kp DOT  &kp FSLH &kp RSHFT 
                                 &kp LGUI &kp LALT                                                        &kp BSPC  &kp PSCRN 
-                                                &mo 1           &mo 2                    	&kp ENT   &kp SPACE 
+                                                &none           &none                    	&kp ENT   &kp SPACE 
                                                 &kp K_VOL_UP 	&kp K_VOL_DN                   	&kp K_MUTE  &kp ENTER 
-                                                &kp C_PP 	&tog 3                          &kp HOME  &kp END
+                                                &kp C_PP 	&none                          &kp HOME  &kp END
                         >;
                 };
 
