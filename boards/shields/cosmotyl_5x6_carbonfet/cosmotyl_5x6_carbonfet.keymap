@@ -22,7 +22,7 @@
                                                    &kp LWIN     &kp LALT                                                                                   &kp BACKSPACE &kp BACKSPACE
                                                                 &kp SPACE  &kp LEFT_SHIFT                                     &kp RET    &kp BACKSPACE
                                                                            &kp LEFT_ALT    &kp C_AL_CALCULATOR  &kp UP_ARROW  &kp DOWN
-                                                                           &kp LEFT_GUI    &lt 1 F2             &kp LEFT      &kp RIGHT
+                                                                           &kp LEFT_GUI    &kp LEFT_GUI         &kp LEFT      &kp RIGHT
                                         >;
                                 };
 				
