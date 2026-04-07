@@ -4,9 +4,8 @@
 
 #include "cosmotyl_5x6_carbonfet.dtsi"
 
-&default_transform {
-    // Set this to the number of columns on the left side.
-    col-offset = <2>;
+&default_transform { // The matrix transform for this board is 6 columns over because the left half is 6 columns wide according to the matrix.
+    col-offset = <6>;
 };
 
 &kscan {

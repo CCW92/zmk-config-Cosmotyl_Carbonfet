@@ -3,8 +3,8 @@ if SHIELD_COSMOTYL_5X6_CARBONFET_LEFT
 config ZMK_KEYBOARD_NAME
     default "cosmotyl"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
+    config ZMK_SPLIT_BLE_ROLE_CENTRAL
+        default y
 
 endif # SHIELD_COSMOTYL_5X6_CARBONFET_LEFT
 

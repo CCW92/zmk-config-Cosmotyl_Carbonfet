@@ -23,5 +23,5 @@ include:
     shield: cosmotyl_5x6_carbonfet_left
   - board: nice_nano_v2
     shield: cosmotyl_5x6_carbonfet_right
-  - board: nice_nano_v2
-    shield: settings_reset
+#  - board: nice_nano_v2
+#    shield: settings_reset
