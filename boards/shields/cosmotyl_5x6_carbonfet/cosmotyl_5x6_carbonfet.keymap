@@ -23,7 +23,7 @@
                                 &kp TAB    &kp Q   &kp W   &kp E   &kp R      &kp T                                              &kp Y      &kp U          &kp I         &kp O      &kp P      &kp EQUAL
                                 &kp LSHFT  &kp A   &kp S   &kp D   &kp F      &kp G                                              &kp H      &kp J          &kp K         &kp L      &kp SEMI   &kp SQT
                                 &kp LCTRL  &kp Z   &kp X   &kp C   &kp V      &kp B                                              &kp N      &kp M          &kp COMMA     &kp DOT    &kp SLASH  &kp RSHFT
-                                                   &kp LWIN     &kp LALT                                                                                   &kp K_UNDO    &kp K_REDO
+                                                   &kp LWIN     &kp LALT                                                                                   &kp BACKSPACE &none
                                                                 &kp K_VOL_DN  &kp K_VOL_UP                                   &kp BACKSPACE &kp SPACE
                                                                 &kp K_MUTE    &mo 1                                          &kp PSCRN     &kp RET
                                                                 &tog 3        &mo 2                                          &kp HOME      &kp END
@@ -47,7 +47,7 @@
                         display-name = "Raise Layer"; 
                         bindings = <
                                         &kp F1 	  &kp F2   &kp F3    	&kp F4    &kp F5  &kp F6                   		&kp F7    &kp F8    &kp F9 &kp F10  &kp F11   &kp F12 
-                                        &none     &none    &kp U        &none     &none  &none                    		&kp LBKT  &kp RBKT  &none  &kp INS  &kp HOME  &kp PGUP
+                                        &none     &none    &kp UP       &none     &none  &none                    		&kp LBKT  &kp RBKT  &none  &kp INS  &kp HOME  &kp PGUP
                                         &kp LSHFT &kp LEFT &kp DOWN  	&kp RIGHT &none  &none                    		&kp NUBS  &kp GRAVE &none  &kp DEL  &kp END   &kp PGDN
                                         &kp LCTRL &none    &none     	&none     &none  &bootloader				&none     &none     &none  &none    &none     &kp CAPS
                                                            &kp LGUI     &kp LALT             			                  	            &none  &none
