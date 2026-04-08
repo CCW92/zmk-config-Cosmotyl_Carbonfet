@@ -24,8 +24,8 @@
                                 &kp LSHFT  &kp A   &kp S   &kp D   &kp F      &kp G                                              &kp H      &kp J          &kp K         &kp L      &kp SEMI   &kp SQT
                                 &kp LCTRL  &kp Z   &kp X   &kp C   &kp V      &kp B                                              &kp N      &kp M          &kp COMMA     &kp DOT    &kp SLASH  &kp RSHFT
                                                    &kp LWIN     &kp LALT                                                                                   &kp K_UNDO    &kp K_REDO
-                                                                &kp K_VOL_DN  &kp K_VOL_UP                                   &kp SPACE     &kp BACKSPACE
-                                                                &kp K_MUTE    &mo 1                                          &kp RET       &kp PSCRN
+                                                                &kp K_VOL_DN  &kp K_VOL_UP                                   &kp BACKSPACE &kp SPACE
+                                                                &kp K_MUTE    &mo 1                                          &kp PSCRN     &kp RET
                                                                 &tog 3        &mo 2                                          &kp HOME      &kp END
                                         >;
                                 };
@@ -64,8 +64,8 @@
                                         &kp TAB    &kp Q    &kp W    &kp E    &kp R    &kp T                            &kp Y    &kp U    &kp I     &kp O    &kp P     &kp EQUAL 
                                         &kp LCTRL  &kp A    &kp S    &kp D    &kp F    &kp G                            &kp H    &kp J    &kp K     &kp L    &kp SEMI  &kp SQT 
                                         &kp LSHFT  &kp Z    &kp X    &kp C    &kp V    &kp B                            &kp N    &kp M    &kp COMMA &kp DOT  &kp SLASH &kp RSHFT 
-                                                        &kp LGUI &kp LALT                                                        		  &kp BACKSPACE  &kp PSCRN 
-                                                                        &kp SPACE &kp RET                     	 	 &kp SPACE &kp BACKSPACE 
+                                                        &kp LGUI &kp LALT                                                        		  &kp K_UNDO    &kp K_REDO 
+                                                                        &kp SPACE &kp RET                     	 	 &kp BACKSPACE &kp SPACE 
                                                                         &none     &mo 1				         &kp UP    &kp RIGHT 
                                                                         &tog 4    &mo 2                         	 &kp LEFT  &kp DOWN		
                                         >;	
@@ -77,8 +77,8 @@
                                         &kp TAB    &kp Q    &kp UP    &kp E     &kp R    &kp T                            &kp Y    &kp U    &kp I     &kp O    &kp P     &kp EQUAL 
                                         &kp LCTRL  &kp LEFT &kp DOWN  &kp RIGHT &kp F    &kp G                            &kp H    &kp J    &kp K     &kp L    &kp SEMI  &kp SQT 
                                         &kp LSHFT  &kp Z    &kp X    &kp C      &kp V    &kp B                            &kp N    &kp M    &kp COMMA &kp DOT  &kp SLASH &kp RSHFT 
-                                                        &kp LGUI &kp LALT                                                        		  &kp BACKSPACE  &kp PSCRN 
-                                                                        &kp SPACE &kp RET                     	 	 &kp SPACE &kp BACKSPACE 
+                                                        &kp LGUI &kp LALT                                                        		  &kp K_UNDO    &kp K_REDO 
+                                                                        &kp SPACE &kp RET                     	 	 &kp BACKSPACE &kp SPACE 
                                                                         &none 	   &mo 1				 &kp UP    &kp RIGHT 
                                                                         &tog 4    &mo 2                         	 &kp LEFT  &kp DOWN		
                                         >;	
