@@ -80,7 +80,7 @@
                                                         &kp LGUI &kp LALT                                                        		  &kp K_UNDO    &kp K_REDO 
                                                                         &kp SPACE &kp RET                     	 	 &kp BACKSPACE &kp SPACE 
                                                                         &none 	   &mo 1				 &kp UP    &kp RIGHT 
-                                                                        &tog 4    &mo 2                         	 &kp LEFT  &kp DOWN		
+                                                                        &tog 0     &mo 2                         	 &kp LEFT  &kp DOWN		
                                         >;	
                                 };
                 };
