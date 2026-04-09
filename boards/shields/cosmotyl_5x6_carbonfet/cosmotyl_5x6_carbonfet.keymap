@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 &soft_off {
-    hold-time-ms = <5000>; // Only turn off it the key is held for 5 seconds or longer.
+    hold-time-ms = <2000>; // Only turn off it the key is held for 5 seconds or longer.
 };
 
 / {
@@ -24,23 +24,23 @@
                                 &kp LSHFT  &kp A   &kp S   &kp D   &kp F      &kp G                                              &kp H      &kp J          &kp K         &kp L      &kp SEMI   &kp SQT
                                 &kp LCTRL  &kp Z   &kp X   &kp C   &kp V      &kp B                                              &kp N      &kp M          &kp COMMA     &kp DOT    &kp SLASH  &kp RSHFT
                                                    &kp LWIN     &kp LALT                                                                                   &kp BACKSPACE &none
-                                                                &soft_off     &mo 1                                   &kp BACKSPACE &kp SPACE
+                                                                &soft_off     &mo 1                                          &kp BACKSPACE &kp SPACE
                                                                 &kp K_MUTE    &mo 2                                          &kp PSCRN     &kp RET
-                                                                &tog 4        &tog 3                                          &kp HOME      &kp END
+                                                                &tog 4        &tog 3                                         &kp HOME      &kp END
                                         >;
                                 };
 
                 Lower_layer {
                         display-name = "Lower Layer";
                         bindings = <
-                                &kp ESC    &none    &none      &none  	    &none     &none                    			&kp KP_NUM   &kp KP_SLASH 	&kp KP_ASTERISK    &kp MINUS         &kp KP_PLUS  &kp MINUS 
-                                &none 	   &none    &none      &none 	    &none     &kp LBRC                         	        &kp RBRC     &kp KP_NUMBER_7    &kp KP_NUMBER_8    &kp KP_NUMBER_9   &none        &none  
-                                &kp LSHFT  &kp HOME &kp PG_UP  &kp PG_DN    &kp END   &kp LPRN                                  &kp RPRN     &kp KP_NUMBER_4    &kp KP_NUMBER_5    &kp KP_NUMBER_6   &none        &none  
-                                &kp LCTRL  &none    &none      &none 	    &none     &none                        		&none 	     &kp KP_NUMBER_1    &kp KP_NUMBER_2    &kp KP_NUMBER_3   &none        &none  
-                                                    &kp LGUI   &kp LALT            							                        &kp KP_NUMBER_0    &kp KP_DOT 
-                                                                                &none	   &mo 1  	                &kp PIPE &kp BSPC 
-                                                                                &none 	   &mo 2           	        &none &none 
-                                                                                &tog 4     &tog 3                        &none &none
+                                &bt BT_CLR     &bt BT_SEL 1    &bt BT_SEL 2         &bt BT_SEL 3  	&bt BT_SEL 4     &bt BT_SEL 5                    	&kp KP_NUM   &kp KP_SLASH 	&kp KP_ASTERISK    &kp MINUS         &kp KP_PLUS  &kp MINUS 
+                                &bt BT_CLR_ALL &none           &none                &none 	        &none            &kp LBRC                         	&kp RBRC     &kp KP_NUMBER_7    &kp KP_NUMBER_8    &kp KP_NUMBER_9   &none        &none  
+                                &kp LSHFT      &kp HOME        &kp PG_UP            &kp PG_DN       &kp END          &kp LPRN                               &kp RPRN     &kp KP_NUMBER_4    &kp KP_NUMBER_5    &kp KP_NUMBER_6   &none        &none  
+                                &kp LCTRL      &none           &none                &none 	        &none            &none                        		&none 	     &kp KP_NUMBER_1    &kp KP_NUMBER_2    &kp KP_NUMBER_3   &none        &none  
+                                                               &kp LGUI             &kp LALT            							                                &kp KP_NUMBER_0    &kp KP_DOT 
+                                                                                &none	   &mo 1  	                                                         &kp PIPE &kp BSPC 
+                                                                                &none 	   &mo 2           	                                                 &none &none 
+                                                                                &tog 4     &tog 3                                                                &none &none
                                         >;
                                 };
                 Raise_layer {
